@@ -1,0 +1,110 @@
+/* === Calculator === */
+
+#GridPaneCalc {
+    -fx-padding: 4 4 4 4;
+}
+
+#buttonCalc{
+    -fx-background-color: linear-gradient(#94a0a2 0%, #183dd1 90%, #0d0c0c 100%); // blue
+    -fx-border-color: derive(#2fd179, -30%);
+    -fx-border-width: 0.2px;
+    -fx-font-size: 15pt;
+    -fx-text-fill: whitesmoke;
+    -fx-font-family: "Lato bold" "Calibri"
+}
+
+#buttonCalc:hover{
+    -fx-background-color: derive(#0033ff, -20%); // blue
+    -fx-text-fill: #e1ff00; // yellow
+}
+
+#buttonCalc:focused {
+    -fx-background-color: derive(#13933e, -20%); // green
+    -fx-text-fill: #efeded;
+}
+
+#buttonCalc:focused:hover {
+    -fx-background-color: derive(#0033ff, -20%); // blue
+    -fx-text-fill: #e1ff00; // yellow
+}
+
+#addToMemo_1:focused,
+#addToMemo_2:focused {
+    -fx-background-color: #e1ff00; // yellow
+    -fx-text-fill: #f20707; // red
+}
+
+#addToMemo_1:focused:hover,
+#addToMemo_2:focused:hover {
+    -fx-background-color: derive(#0033ff, -20%); // blue
+    -fx-text-fill: #e1ff00; // yellow
+}
+
+#clearMemo_1:focused,
+#clearMemo_2:focused {
+    -fx-background-color: #f20707; // red
+    -fx-text-fill: #ffffff;
+}
+
+#clearMemo_1:focused:hover,
+#clearMemo_2:focused:hover {
+    -fx-background-color: derive(#0033ff, -20%); // blue
+    -fx-text-fill: #e1ff00; // yellow
+}
+
+#memory_recall_1:focused,
+#memory_recall_2:focused {
+    -fx-background-color: derive(#13933e, -20%); // green
+    -fx-text-fill: #efeded;
+}
+
+#memory_recall_1:focused:hover,
+#memory_recall_1:focused:hover {
+    -fx-background-color: derive(#0033ff, -20%); // blue
+    -fx-text-fill: #e1ff00; // yellow
+}
+
+#addToMemo_1,
+#clearMemo_1,
+#addToMemo_2,
+#clearMemo_2,
+#memory_recall_1,
+#memory_recall_2 {
+    -fx-background-color: linear-gradient(#94a0a2 0%, #183dd1 90%, #0d0c0c 100%);
+    -fx-border-color: derive(#2fd179, -30%);
+    -fx-border-width: 0.2px;
+    -fx-font-size: 15pt;
+    -fx-text-fill: whitesmoke;
+    -fx-font-family: "Lato bold" "Calibri"
+}
+
+#addToMemo_1:hover,
+#clearMemo_1:hover,
+#addToMemo_2:hover,
+#clearMemo_2:hover,
+#memory_recall_1:hover,
+#memory_recall_2:hover {
+    -fx-background-color: derive(#0033ff, -20%);
+    -fx-text-fill: yellow;
+}
+
+#textFieldCalc,
+#displayMemo_1,
+#displayMemo_2 {
+    -fx-background-color: #000000; // #E1E1E1;
+}
+
+#textFieldCalc{
+    -fx-text-fill: #ffffff;
+}
+
+#displayMemo_1,
+#displayMemo_2 {
+    -fx-font-size: 15pt;
+    -fx-text-fill: #09f725; // green
+}
+
+#textFieldCalcLeft {
+    -fx-background-color: #000000;
+    -fx-text-fill: #ffffff;
+}
