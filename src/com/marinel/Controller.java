@@ -238,11 +238,6 @@ public class Controller implements Initializable {
                 " is designed to perform only simple operations: add, subtract, multiply, divide only between two numbers.");
         infoAlert.showAndWait();
 
-        FadeTransition fadeOut = new FadeTransition(Duration.seconds(10), infoHelp);
-        fadeOut.setFromValue(1.0);
-        fadeOut.setToValue(0.5);
-        fadeOut.play();
-
         displayLeft.setMaxWidth(Double.POSITIVE_INFINITY);
         display.setMaxWidth(Double.POSITIVE_INFINITY);
         clear.setMaxWidth(Double.POSITIVE_INFINITY);
@@ -255,5 +250,10 @@ public class Controller implements Initializable {
         memory_1_recall.setMaxWidth(Double.POSITIVE_INFINITY);
         memory_2_recall.setMaxWidth(Double.POSITIVE_INFINITY);
         infoHelp.setMaxWidth(Double.POSITIVE_INFINITY);
+
+        FadeTransition fadeOut = new FadeTransition(Duration.seconds(8), infoHelp);
+        fadeOut.setFromValue(1.0);
+        fadeOut.setToValue(0.5);
+        fadeOut.play();
     }
 }
