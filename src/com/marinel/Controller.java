@@ -1,11 +1,14 @@
 package com.marinel;
 
+import javafx.animation.FadeTransition;
+import javafx.animation.TranslateTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.util.Duration;
 
 import java.net.URL;
 import java.text.DecimalFormat;
@@ -235,6 +238,14 @@ public class Controller implements Initializable {
                 "   (#) Or:   2 × 2 × 2 + 5 - 3 = 10\nBecause this calculator" +
                 " is designed to perform only simple operations: add, subtract, multiply, divide only between two numbers.");
         infoAlert.showAndWait();
+
+        TranslateTransition translateTransition = new TranslateTransition();
+        translateTransition.setDuration(Duration.seconds(3));
+        translateTransition.setNode(infoHelp);
+        FadeTransition fadeOut = new FadeTransition(Duration.seconds(10), infoHelp);
+        fadeOut.setFromValue(1.0);
+        fadeOut.setToValue(0.5);
+        fadeOut.play();
 
         displayLeft.setMaxWidth(Double.POSITIVE_INFINITY);
         display.setMaxWidth(Double.POSITIVE_INFINITY);
