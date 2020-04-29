@@ -24,7 +24,6 @@
     <Button id="buttonCalc" fx:id="clear" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" text="CLEAR"
             GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="4"/>
 
-
     <Button id="buttonCalc" fx:id="one" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="500.0" prefWidth="500.0" text="1"
             GridPane.rowIndex="2" GridPane.columnIndex="0"/>
 
