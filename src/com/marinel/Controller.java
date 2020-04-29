@@ -1,7 +1,6 @@
 package com.marinel;
 
 import javafx.animation.FadeTransition;
-import javafx.animation.TranslateTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -239,9 +238,6 @@ public class Controller implements Initializable {
                 " is designed to perform only simple operations: add, subtract, multiply, divide only between two numbers.");
         infoAlert.showAndWait();
 
-        TranslateTransition translateTransition = new TranslateTransition();
-        translateTransition.setDuration(Duration.seconds(3));
-        translateTransition.setNode(infoHelp);
         FadeTransition fadeOut = new FadeTransition(Duration.seconds(10), infoHelp);
         fadeOut.setFromValue(1.0);
         fadeOut.setToValue(0.5);
