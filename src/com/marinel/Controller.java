@@ -1,5 +1,6 @@
 package com.marinel;
 
+import javafx.animation.Animation;
 import javafx.animation.FadeTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -251,9 +252,11 @@ public class Controller implements Initializable {
         memory_2_recall.setMaxWidth(Double.POSITIVE_INFINITY);
         infoHelp.setMaxWidth(Double.POSITIVE_INFINITY);
 
-        FadeTransition fadeOut = new FadeTransition(Duration.seconds(8), infoHelp);
+        FadeTransition fadeOut = new FadeTransition(Duration.seconds(5), infoHelp);
         fadeOut.setFromValue(1.0);
-        fadeOut.setToValue(0.5);
+        fadeOut.setToValue(0.3);
+        fadeOut.setCycleCount(Animation.INDEFINITE);
+        fadeOut.setAutoReverse(true);
         fadeOut.play();
     }
 }
