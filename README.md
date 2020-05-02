@@ -22,7 +22,7 @@ All you have to do is use the memory recall button and then the operation you wa
 and the equal button to get the result.
 So you can add to memory, delete the memory, and make any calculation between the saved memorys.
 
-Demo Images:
+# Demo Images:
 
 Add to memory 1 image<br>
 <img src="images/addtomemory1.png" width="350"><br>
