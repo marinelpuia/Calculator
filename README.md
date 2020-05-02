@@ -24,4 +24,4 @@ So you can add to memory, delete the memory, and make any calculation between th
 
 Demo Images:
 
-<img src="images/demoimage1.png">
+<img src="images/demoimage1.png" width="200">
