@@ -21,3 +21,7 @@ For example, you have saved two numbers
 All you have to do is use the memory recall button and then the operation you want to perform and then the second memory recall button
 and the equal button to get the result.
 So you can add to memory, delete the memory, and make any calculation between the saved memorys.
+
+Demo Images:
+
+<img src="images/demoimage1.png">
