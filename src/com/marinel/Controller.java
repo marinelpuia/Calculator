@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
 
-    private final DecimalFormat decimalFormat = new DecimalFormat("#.##");
+    private final DecimalFormat decimalFormat = new DecimalFormat("#.###");
 
     Float data = 0f;
     Float secondOperand;
@@ -221,7 +221,8 @@ public class Controller implements Initializable {
         infoAlert.setContentText("PAY ATTENTION: with this calculator you can only do one operation at a time." +
                 " EXAMPLE:   1 + 1 = 2\n   (#) You can't do that:   1 + 1 + 1 - 2 = 1\n   (#) OR:   2 × 2 - 1 = 3\n" +
                 "   (#) OR:   2 × 2 × 2 + 5 - 3 = 10\nBecause this calculator" +
-                " is designed to perform only simple operations: add, subtract, multiply, divide only between two numbers.");
+                " is designed to perform only simple operations: add, subtract, multiply, divide only between two numbers with a maximum" +
+                " of three decimals and the result will be displayed in the same way with a maximum of three decimals rounded up.");
         infoAlert.showAndWait();
     }
 
@@ -236,7 +237,8 @@ public class Controller implements Initializable {
         infoAlert.setContentText("PAY ATTENTION: with this calculator you can only do one operation at a time." +
                 " EXAMPLE:   1 + 1 = 2\n   (#) You can't do that:   1 + 1 + 1 - 2 = 1\n   (#) Or:   2 × 2 - 1 = 3\n" +
                 "   (#) Or:   2 × 2 × 2 + 5 - 3 = 10\nBecause this calculator" +
-                " is designed to perform only simple operations: add, subtract, multiply, divide only between two numbers.");
+                " is designed to perform only simple operations: add, subtract, multiply, divide only between two numbers with a maximum" +
+                " of three decimals and the result will be displayed in the same way with a maximum of three decimals rounded up.");
         infoAlert.showAndWait();
 
         displayLeft.setMaxWidth(Double.POSITIVE_INFINITY);
