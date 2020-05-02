@@ -23,18 +23,18 @@ and the equal button to get the result.
 So you can add to memory, delete the memory, and make any calculation between the saved memorys.
 
 Demo Images:
-<br>
-Add to memory 1 image
+
+Add to memory 1 image<br>
 <img src="images/addtomemory1.png" width="350"><br>
 
-Add to memory 2 image
+Add to memory 2 image<br>
 <img src="images/addtomemory2.png" width="350"><br>
 
-Adition of two numbers whit decimals
+Adition of two numbers whit decimals<br>
 <img src="images/additionoftwonumberswhitdecimals.png" width="350"><br>
 
-Memory one + Memory two 
+Memory one + Memory two <br>
 <img src="images/memory1plusmemory2.png" width="350"><br>
 
-Three decimals result
+Three decimals result<br>
 <img src="images/threedecimalrezult.png" width="350">
