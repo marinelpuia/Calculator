@@ -24,4 +24,17 @@ So you can add to memory, delete the memory, and make any calculation between th
 
 Demo Images:
 
-<img src="images/demoimage1.png" width="350">
+Add to memory 1 image
+<img src="images/addtomemory1.png" width="350">
+
+Add to memory 2 image
+<img src="images/addtomemory2.png" width="350">
+
+Adition of two numbers whit decimals
+<img src="images/additionoftwonumberswhitdecimals.png" width="350">
+
+Memory one + Memory two 
+<img src="images/memory1plusmemory2.png" width="350">
+
+Three decimals result
+<img src="images/threedecimalrezult.png" width="350">
