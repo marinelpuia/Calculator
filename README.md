@@ -7,11 +7,11 @@ and you will get the result in the same way up to three decimals if is the case.
 
 For example:
 
-If you do 10 ÷ 2 = 5
-If you do 10.01 ÷ 2 = 5.005
-If you do 10.01 ÷ 2.51 = 3.988
-If yoy do 10.99 × 2.56 = 28.134
-If you do 28.134 ÷ 10.99 = 2.56
+- If you do 10 ÷ 2 = 5
+- If you do 10.01 ÷ 2 = 5.005
+- If you do 10.01 ÷ 2.51 = 3.988
+- If yoy do 10.99 × 2.56 = 28.134
+- If you do 28.134 ÷ 10.99 = 2.56
 
 This calculator has two memory fields where you can store two results at the same time and then do any calculation whit that two memory
 by using the individual buttons for each saved memory.
